@@ -6,12 +6,12 @@
   <Content type="html" view="home">
     <![CDATA[
       <table>
-        <th>
-          <td>Environment Name</td>
-          <td>URL</td>
-          <td>Release</td>
-          <td>DB Server/instance</td>
-        </th>
+        <tr>
+          <th>Environment Name</th>
+          <th>URL</th>
+          <th>Release</th>
+          <th>DB Server/instance</th>
+        </tr>
         <tr>
           <td>VenteraDev1 (Database upgrade testing)</td>
           <td>http://venfnsweb01</td>
