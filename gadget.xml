@@ -5,12 +5,20 @@
   </ModulePrefs>
   <Content type="html" view="home">
     <![CDATA[
-      Hello, small world!
+      <table>
+        <th>
+          <td>Environment Name</td>
+          <td>URL</td>
+          <td>Release</td>
+          <td>DB Server/instance</td>
+        </th>
+        <tr>
+          <td>VenteraDev1 (Database upgrade testing)</td>
+          <td>http://venfnsweb01</td>
+          <td>FY18R3</td>
+          <td>str2-dev-db4\instance1</td>
+        </tr>
+      </table>
     ]]>  
-  </Content>
-  <Content type="html" view="canvas"> 
-    <![CDATA[
-      Hello, big world!
-    ]]> 
   </Content>
 </Module>
