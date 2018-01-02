@@ -5,7 +5,7 @@
   </ModulePrefs>
   <Content type="html" view="home">
     <![CDATA[
-      <table>
+      <table style="width:100%; border: 1px solid black">
         <tr>
           <th>Environment Name</th>
           <th>URL</th>
