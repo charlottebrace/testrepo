@@ -8,13 +8,13 @@
   <div>Hello world Home view</div>
   <script type="text/javascript">
 
-    function goToView(dest) {
-      var supported_views = gadgets.views.getSupportedViews();
-      gadgets.views.requestNavigateTo(supported_views[dest]);
+    function gotoCanvas(params) {
+      var canvas_view = new gadgets.views.View("canvas");
+      gadgets.views.requestNavigateTo(canvas_view, params);
     };
   </script>
 
-  <a href="javascript:goToView('canvas')" >Go to canvas view</a><br><br>
+  <a href="javascript:gotoCanvas()" >Go to canvas view</a><br><br>
 
   ]]>
   </Content>
