@@ -9,7 +9,7 @@
   <script type="text/javascript">
 
     function gotoCanvas(params) {
-      var canvas_view = new gadgets.views.View("canvas");
+      var canvas_view = new gadgets.views.View("stuff");
       gadgets.views.requestNavigateTo(canvas_view, params);
     };
   </script>
@@ -18,7 +18,7 @@
 
   ]]>
   </Content>
-  <Content type="html" view="canvas">
+  <Content type="html" view="stuff">
   <![CDATA[
   <div>Hello world Canvas view</div>
   <script type="text/javascript">
